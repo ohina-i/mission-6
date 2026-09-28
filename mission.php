@@ -13,6 +13,7 @@ function dispatchCooling(array $commands): void {
             // 担当A: case "WATER_INJECT": $coolant = true; break;
             // 担当B: case "NITROGEN_BLAST": $gas = true; break;
             case "WAIT": break; // ← これは残す
+            case "NITROGEN_BLAST": $gas = true; break;
             // ==========================================
         }
     }
